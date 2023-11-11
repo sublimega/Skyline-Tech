@@ -1,0 +1,57 @@
+caption{
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+table{
+    border-bottom: 2px solid;
+    border-collapse: collapse;
+    border-color: lightgray;
+    margin: auto;
+    width: 80%;
+}
+
+
+th,td{
+    border-bottom: 2px solid;
+    border-color: lightgray;
+    /* padding: 5px; */
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+th{
+    background-color: dodgerblue;
+    color: #ffff;
+     padding: 15px;
+}
+
+tr:hover{
+    background-color: lightgray;
+
+}
+
+
+.Good{
+    border-radius: 5px;
+    background-color: green;
+    color: #ffff;
+    padding: 5px 0.5px;
+}
+
+.Average{
+    border-radius: 5px;
+  background-color: yellow;
+  padding: 7px 1px;
+  
+}
+
+.Bad{
+    border-radius: 5px;
+    background-color: red;
+    color: #ffff;
+    padding: 5px 0.5px;
+}
+
